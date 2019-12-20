@@ -11,7 +11,7 @@ export const routes = [
         'header-top': Header
     }},
     { path: '/user', components: {
-        default: Home,
+        default: User,
         'header-bottom': Header
     }, children: [
         { path: '', component: UserStart },
